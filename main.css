@@ -48,10 +48,11 @@ header a{
 }
 
 .googleimg {
+    display: flex;
+    justify-content: center;
     padding-top: 222px;
     padding-bottom: 15px;
-    position: relative;
-    right: -51px
+    
 }
 
 .searchbox {
@@ -87,4 +88,59 @@ header a{
     height: 25px;
 
 }
+
+
+.buttonbox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #f8f9fa;
+    border: transparent;
+    color: rgb(61, 60, 60);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.translationbox {
+    display: flex;
+    justify-content: center;
+    color: rgb(61, 60, 60);
+    margin-top: 30px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.translationbox p a {
+    text-decoration: none;
+}
+
+.translationbox p span {
+    padding: 0 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
