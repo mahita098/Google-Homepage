@@ -59,13 +59,17 @@ header a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-
+    color: rgb(173, 167, 167);
    border-radius: 24px;
     width: 584px;
     border: 1px solid rgb(226, 226, 226);
-    padding:10px 10px;
+    padding:12px 10px;
     
+}
+
+.searchbox:hover {
+    box-shadow: 0 4px 10px -6px;
+
 }
 
 .googlebox {
@@ -73,10 +77,12 @@ header a{
 }
 
 .textbox {
-    width: 80%;
-    border: none;
-    background-color: transparent;
-    border-color: transparent;
+    width: 100%;
+    padding: 0px 40px;
+    
+    outline: none;
+    border: transparent;
+    font-size: 16px;
     
 }
 
@@ -88,12 +94,30 @@ header a{
     
 
 .searchicon, .audio, .camera {
-    padding: 0 8px;
+    position: absolute;
     width: 41px;
     height: 25px;
 
 }
 
+.searchicon {
+    width: 25px;
+    height: 15px;
+    left: 310px;
+    top: 392px;
+}
+
+
+.audio {
+    right: 300px;
+    top: 385px;
+}
+
+
+.camera {
+    right: 338px;
+    top: 387px;
+}
 
 .buttonbox {
     margin-top: 30px;
@@ -116,6 +140,7 @@ button {
 button:hover {
     cursor: pointer;
     border: 1px solid #c6c7ca;
+    box-shadow: 0 4px 10px -10px;
 }
 
 .translationbox {
