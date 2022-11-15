@@ -64,6 +64,7 @@ header a{
     width: 584px;
     border: 1px solid rgb(226, 226, 226);
     padding:12px 10px;
+    position: relative;
     
 }
 
@@ -103,20 +104,20 @@ header a{
 .searchicon {
     width: 25px;
     height: 15px;
-    left: 310px;
-    top: 392px;
+    left: 15px;
+    top: 15px;
 }
 
 
 .audio {
-    right: 300px;
-    top: 385px;
+    right: 9px;
+    top: 9px;
 }
 
 
 .camera {
-    right: 338px;
-    top: 387px;
+    right: 44px;
+    top: 9px;
 }
 
 .buttonbox {
