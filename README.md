@@ -1,4 +1,5 @@
-# Google-Homepage
- Had a great time designing the famour google home page!
+# Google Homepage
+ 
+Designed the famous google home page to improve my basics!
 
-<p> Page live on : https://google-homepage-phi-lac.vercel.app/ </p>
+Page live on ✨ : https://google-homepage-phi-lac.vercel.app/ 
